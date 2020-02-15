@@ -890,6 +890,11 @@
   resolved "https://registry.npm.taobao.org/@istanbuljs/schema/download/@istanbuljs/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha1-JlIL8Jq+SlZEzVQU43ElqJVCQd0=
 
+"@ngrx/effects@^8.6.0":
+  version "8.6.0"
+  resolved "https://registry.npm.taobao.org/@ngrx/effects/download/@ngrx/effects-8.6.0.tgz#a0d7339597a5128c5cf896ddcf93f73406a45860"
+  integrity sha1-oNczlZelEoxc+Jbdz5P3NAakWGA=
+
 "@ngrx/store-devtools@^8.6.0":
   version "8.6.0"
   resolved "https://registry.npm.taobao.org/@ngrx/store-devtools/download/@ngrx/store-devtools-8.6.0.tgz#ac287e4b094d099781cdc9f3281039c0e988296c"

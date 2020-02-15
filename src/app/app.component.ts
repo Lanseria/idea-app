@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { AppState } from "./store/app-store.module";
 import { Store } from "@ngrx/store";
-import { AddError } from "./store/actions/errors.action";
+import { SetInitialUser } from "./store/actions/auth.action";
 
 @Component({
   selector: "app-root",
@@ -14,6 +14,6 @@ export class AppComponent implements OnInit {
   constructor(private store: Store<AppState>) {}
 
   ngOnInit() {
-    this.store.dispatch(new AddError({ error: "message" }));
+    this.store.dispatch(new SetInitialUser());
   }
 }
